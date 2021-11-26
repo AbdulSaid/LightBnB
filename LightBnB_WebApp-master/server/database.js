@@ -130,16 +130,6 @@ const getAllProperties = function(options, limit = 10) {
       }
     }
 
-    // if (options.minimum_rating) {
-    //   queryParams.push(options.minimum_rating);
-    //   if (queryString.includes('WHERE')) {
-    //     queryString += `AND avg(property_reviews.rating) >= $${queryParams.length} `
-    //   } else  {
-    //     queryString += `WHERE avg(property_reviews.rating) >= $${queryParams.length} `;
-    //   }
-    // }
-
-   
   
     // 4
 
